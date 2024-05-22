@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar Form 1</title>
+	<link rel="stylesheet" type="text/css" href="belajarcss1.css">
+</head>
+<body>
+	<table border="0" cellpadding="0" cellspacing="0">
+		<form>
+			<tr>		
+				<td>
+					<label for="username">Username	:</label>
+				</td>
+				<td> 
+					<input type="text" id="username">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<!-- Membuat Password -->
+					<label for="password">Password	:</label>
+				</td>
+				<td>
+					<input type="password" id="password">
+				</td>
+			</tr>
+			<tr >
+				<td colspan="0">
+					<!-- Membuat Radio Button -->
+					<input type="radio" id="pria" name="gender"><label>Pria</label>
+				</td>
+				<td>
+					<input type="radio" id="wanita" name="gender"><label>Wanita</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<!-- Membuat Check Box -->
+					<input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>			
+					<input type="checkbox" id="Berenang"><label for="Berenang">Berenang</label>
+				</td>
+				<td>
+					<input type="checkbox" id="Olahraga"><label for="Olahraga">Olahraga</label>		
+					<input type="checkbox" id="Bermain"><label for="Bermain">Bermain</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<!-- Membuat Tombol Submit -->
+					<input type="submit" value="Kirim">
+				</td>
+			</tr>
+			<!-- Tapi tidak disarankan menggunakan input untuk submit, karna lebih baik menggunakan <button> -->
+			<!-- Membuat Tombol Submit menggunakan Button -->
+			<tr>
+				<td colspan="2">
+					<button>Kirim!</button>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<!-- Membuat Text Area -->
+					<textarea></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<!-- Membuat Tombol Dropdown -->
+					<select>
+						<option>Jakarta</option>
+						<option>Bandung</option>
+						<option>Palembang</option>
+					</select>
+				</td>
+			</tr>
+
+
+
+
+		</form>
+	</table>
+
+</body>
+</html>
